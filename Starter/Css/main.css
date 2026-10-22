@@ -1,5 +1,6 @@
 :root {
   --primary-color: #dbcf5c;
+  --line-top: black;
 }
 
 html {
@@ -7,12 +8,14 @@ html {
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header {
-  padding: 1,5rem;
-  background-color: #fff;
+  padding: 1.4rem;
+  background-color: white;
+  text-align: center;
+  border-top: 6px solid var(--line-top)
 }
 
 h1 {
@@ -24,12 +27,12 @@ h1 {
 h3 {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0,5rem;
+  margin-bottom: 0.5rem;
 }
 
 section {
-  padding: 2rem;
-  background-color: #fdfbf7;
+  padding: 2rem 1.5rem;
+  background-color: rgb(255, 254, 240);
 }
 
 p {
@@ -38,7 +41,7 @@ p {
 }
 
 .parallax {
-  background-image: url(C:\Users\F1605PA\Documents\0373-Html\Sesión04\Exercices01\Starter\Img> );
+  background-image: url(../Img/olive-oil_1920.webp);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
